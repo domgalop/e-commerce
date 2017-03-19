@@ -1,9 +1,258 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+	<title>E-commerce</title>
 </head>
 <body>
+	<nav class="navbar navbar-inverse bg-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-tower"></span>   E-commerce</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Canasta</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>  Salir</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class=" input-group">
+					<input type="text" class="form-control input-dark" placeholder="Buscar...">
+					<span class="input-group-btn ">
+						<button class="btn btn-default .button-2" type="button"><span class="glyphicon glyphicon-search"></span></button>
+					</span>
+				</div>
+				<div class="hidden-md hidden-xs hidden-sm">
+					<h1>Categorias</h1>
+				</div>
+				<div class="hidden-md hidden-xs hidden-sm">
+					<div class="list-group">
+						<a href="#" class="list-group-item active"><span class="badge">14</span>Cras justo odio</a>
+						<a href="#" class="list-group-item"><span class="badge">14</span>Dapibus ac facilisis</a>
+						<a href="#" class="list-group-item"><span class="badge">1</span>Morbi leo risus</a>
+						<a href="#" class="list-group-item"><span class="badge">28</span>Porta ac consectetur</a>
+						<a href="#" class="list-group-item"><span class="badge">7</span>Vestibulum at eros</a>
+						<a href="#" class="list-group-item"><span class="badge">23</span>Dapibus ac facilisis</a>
+						<a href="#" class="list-group-item"><span class="badge">1</span>Morbi leo risus</a>
+						<a href="#" class="list-group-item"><span class="badge">3</span>Porta ac consectetur</a>
+						<a href="#" class="list-group-item disabled"><span class="badge">0</span>Cras justo odio</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div>
 
-</body>
-</html>
+					<!-- Carousel -->
+
+					<div class="row">
+						<div class="carousel slide col-md-12" id="carousel-1" data-ride="carousel">
+							<div class="carousel slide col-sm-12 col-md-12">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-generic" data-slide-to="2"></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-1.jpg" alt="Slide 1" />
+										<div class="carousel-caption">
+											<h1>AC/AD</h1>
+											<p>Lorem ipsum dolor sit amet</p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-2.jpg" alt="Slide 2" />
+										<div class="carousel-caption">
+											<h1>Nirvana</h1>
+											<p>Lorem ipsum dolor sit amet</p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-3.jpg" alt="Slide 3" />
+										<div class="carousel-caption">
+											<h1>KISS</h1>
+											<p>Lorem ipsum dolor sit amet</p>
+										</div>
+									</div>
+								</div>
+								<!-- Controls -->
+								<a class="left carousel-control " href="#carousel-1" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-1" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Carousel -->
+
+					<!-- PROD GRID -->
+
+					<div class="row thumb-grid-marg">
+						<div class="row tumb-marg">
+							<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+								<div class="thumbnail">
+									<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="...">
+									<div class="caption">
+										<h3>Lorem item</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam at orci tincidunt sodales. Vivamus consectetur sed eros eu tristique.</p>
+										<a class="btn btn-warning btn-sm" href="#"> <span class="glyphicon glyphicon-shopping-cart"></span> Agregar al Carrito</a> 
+										<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus"></span></span>
+										</button>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+								<div class="thumbnail">
+									<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg" alt="...">
+									<div class="caption">
+										<h3>Lorem item</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam at orci tincidunt sodales. Vivamus consectetur sed eros eu tristique.</p>
+										<a class="btn btn-warning btn-sm" href="#"> <span class="glyphicon glyphicon-shopping-cart"></span> Agregar al Carrito</a> 
+										<button type="button" class="btn btn-info btn-sm""><span class="glyphicon glyphicon-plus"></span></span></button>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+								<div class="thumbnail">
+									<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-3.jpg" alt="...">
+									<div class="caption">
+										<h3>Lorem item</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam at orci tincidunt sodales. Vivamus consectetur sed eros eu tristique.</p>
+										<a class="btn btn-warning btn-sm" href="#"> <span class="glyphicon glyphicon-shopping-cart"></span> Agregar al Carrito</a> 
+										<button type="button" class="btn btn-info btn-sm""><span class="glyphicon glyphicon-plus"></span></span></button>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+								<div class="thumbnail">
+									<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-4.jpg" alt="...">
+									<div class="caption">
+										<h3>Lorem item</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam at orci tincidunt sodales. Vivamus consectetur sed eros eu tristique.</p>
+										<a class="btn btn-warning btn-sm" href="#"> <span class="glyphicon glyphicon-shopping-cart"></span> Agregar al Carrito</a> 
+										<button type="button" class="btn btn-info btn-sm""><span class="glyphicon glyphicon-plus"></span></span></button>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+								<div class="thumbnail">
+									<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-5.jpg" alt="...">
+									<div class="caption">
+										<h3>Lorem item</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam at orci tincidunt sodales. Vivamus consectetur sed eros eu tristique.</p>
+										<a class="btn btn-warning btn-sm" href="#"> <span class="glyphicon glyphicon-shopping-cart"></span> Agregar al Carrito</a> 
+										<button type="button" class="btn btn-info btn-sm""><span class="glyphicon glyphicon-plus"></span></span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- PROD GRID -->
+
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Lorem title</h4>
+					</div>
+					<div class="modal-body">
+						<div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-remove"></span> Este producto está agotado</div>
+						<div class="tumb-marg">
+							<div class="row">
+								<div class="col-lg-7 tumb-marg2 col-xs-7">
+									<img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="T-shirt" class="img-rounded">   
+								</div>
+								<div class="col-lg-5 col-xs-5" id="tumb">
+									<p>Precio: $41</p>
+									<p class="text-primary tumb-marg"><span class="glyphicon glyphicon-heart-empty"></span> Agregar a favoritos</p>
+									<div id="stars" class="starrr">Calificación: </div>
+									<span class="label label-primary">Hipster</span>
+									<span class="label label-default">Deportiva</spa>
+									</div>
+								</div>
+
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Descripción</a></li>
+									<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Comentarios</a></li>
+								</ul>
+								<!-- Tab panes -->
+								<div class="tab-content tumb-marg">
+									<div role="tabpanel" class="tab-pane active" id="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									</div>
+									<div role="tabpanel" class="tab-pane" id="profile">
+										<div class="col-xs-12">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<strong>DomGalop</strong> <span class="text-muted">Comento hace 2 dias</span>
+												</div>
+												<div class="panel-body">
+													Lorem  comment ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore
+												</div>
+											</div>
+										</div>
+										<textarea class="form-control bg-primary textarea-grey" rows="3" placeholder="ingresa tu comentario"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							<button type="button" class="btn btn-primary">Comprar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">© E-commerce 2017</p>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+		<script src="lib/js/star.js"></script>
+	</body>
+	</html>
+
+
+
+
+
+
+
+
