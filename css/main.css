@@ -1,0 +1,16 @@
+.textarea-grey.form-control { 
+    background-color:grey;
+    color:white;
+}
+
+.input-dark.form-control {
+	background-color:gray;
+	border: solid 2px #424242;
+}
+.thumb-grid-marg{
+	margin: 40px 0;
+	padding:0 25px;
+}
+footer {
+	text-align: center;
+}
